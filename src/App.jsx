@@ -1,5 +1,5 @@
 import "./App.css";
-import { Experties, Features, Footer, Header, Navigation, SubHeader } from "./utils";
+import { Body, Experties, Features, Footer, Header, Navigation, SubHeader } from "./utils";
 
 const App = () => {
 
@@ -10,6 +10,7 @@ const App = () => {
     <Features />
     
     <Experties />
+    <Body />
     <Footer />
   </div>
 }

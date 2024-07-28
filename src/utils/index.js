@@ -13,7 +13,10 @@ import Logo from "../components/Footer/Logo";
 import Experties from "../components/Experties/Experties";
 import Features from "../components/Featurs/Features";
 import Features_card from "../components/Featurs/Features_card";
-
+import Body from "../components/Body/Body";
+import Body_btn from "../components/Body/Body_btn";
+import Body_container from "../components/Body/Body_container";
+import Body_card from "../components/Body/Body_card";
 
 import {NavList} from "./constant"
 
@@ -35,7 +38,15 @@ export {
     Features_card,
     
     Experties,
+    
+
+    Body,
+    Body_btn,
+    Body_container,
+    Body_card,
+
     Footer,
     FooterTop,
     Logo,
+
 }

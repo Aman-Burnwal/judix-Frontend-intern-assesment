@@ -23,8 +23,9 @@ import right_icon from "../assets/right.svg";
 import services_icon from "../assets/services_icon.png";
 import legal_icon from "../assets/icons8-judgment-50.png";
 import document_icon from "../assets/document_icon.png";
+import body_card_img from "../assets/body_card.png";
 
-export {judix_logo, phone_logo, email_logo, green_tick, left_icon, right_icon}
+export {judix_logo, phone_logo, email_logo, green_tick, left_icon, right_icon, body_card_img}
 
 export const brnadLogoList = [
     {
@@ -93,6 +94,24 @@ export const Features_card_details = [
         feature_discription: "Get your business registered as per government guidelines and obtain necessary licenses with ease."
         
     }
+]
+
+export const body_btn_data = [{ color: "#7091A1", text: "Talk to Experts" }, { color: "#6986D9", text: "Explore all products" }]
+export const body_container_card = [
+    {
+        header: "Designed to give you a peace of mind", 
+        paragraph: "Customers experience peace of mind knowing that we handle their legal complexities, allowing them to avoid the stress and burden of managing these issues themselves.",
+
+    }, {
+        header: "Save time and reduce costs",
+        paragraph: "We reduce the burden on founders by freeing up their time, resources, and mental bandwidth, allowing them to concentrate on their core operations and business growth.",
+
+    }, {
+        header: "Unparalleled legal , guidance, and support",
+        paragraph: "Connects with experienced lawyers and chartered accountants for personalized consultations, offering exceptional legal guidance and support. Navigate complex legal matters confidently with our top-notch expertise and dedicated assistance.",
+    }
+
+
 ]
 
 export const socialMedia = [instagram, whatsapp, linkedin, twiter]
