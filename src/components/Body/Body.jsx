@@ -1,5 +1,6 @@
 import { body_btn_data, body_card_img, body_container_card } from "../../utils/constant"
-import { Body_btn, Body_card, Body_container } from "../../utils/index";
+import { Body_bottom, Body_btn, Body_card, Body_container, Feedback } from "../../utils/index";
+
 
 const Body = () => {
     return (
@@ -22,6 +23,8 @@ const Body = () => {
                 <div>
                     <Body_card />
                 </div>
+                <Feedback />
+                <Body_bottom />
                 
             </div>
 

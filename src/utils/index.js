@@ -17,6 +17,8 @@ import Body from "../components/Body/Body";
 import Body_btn from "../components/Body/Body_btn";
 import Body_container from "../components/Body/Body_container";
 import Body_card from "../components/Body/Body_card";
+import Body_bottom from "../components/Body/Body_bottom";
+import Feedback from "../components/Body/Feedback";
 
 import {NavList} from "./constant"
 
@@ -44,6 +46,8 @@ export {
     Body_btn,
     Body_container,
     Body_card,
+    Feedback,
+    Body_bottom,
 
     Footer,
     FooterTop,
