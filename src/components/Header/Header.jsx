@@ -1,12 +1,12 @@
 import {Header_top, Header_bottom} from "../../utils/index"
 const Header = () => {
   return (
-    <div className="w-full bg-[#dfdbec] ">
-      <div className="w-3/5 mx-auto  py-20 ">
+    <header className="w-full bg-blue-50 ">
+      <div className="w-[1133px] mx-auto  py-20 ">
         <Header_top />
         <Header_bottom />
       </div>
-    </div>
+    </header>
   )
 }
 export default Header
