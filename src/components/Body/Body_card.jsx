@@ -1,17 +1,12 @@
+import Body_subCard from "./Body_subCard"
+import Body_subCard_right from "./Body_subCard_right"
+
 const Body_card = () => {
   return (
-      <div className="2-[959px] h-[500px]">
-          <div className="w-[495.45px] h-full">
-              <div></div>
-              <div>
-                  
-              </div>
-              <div>
-                  
-              </div>
-              <div>
-                  
-              </div>
+      <div className="w-[959px] h-[500px]">
+          <div className=" h-full flex flex-row  ">
+            <Body_subCard />
+            <Body_subCard_right />
           </div>
     </div>
   )

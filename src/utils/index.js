@@ -20,6 +20,8 @@ import Body_card from "../components/Body/Body_card";
 import Body_bottom from "../components/Body/Body_bottom";
 import Feedback from "../components/Body/Feedback";
 import Quote from "../components/Body/Quote";
+import Body_subCard from "../components/Body/Body_subCard";
+import Body_card_component from "../components/Body/Body_card_component";
 
 import {NavList} from "./constant"
 
@@ -47,6 +49,8 @@ export {
     Body_btn,
     Body_container,
     Body_card,
+    Body_subCard,
+    Body_card_component,
     Feedback,
     Quote,
     Body_bottom,

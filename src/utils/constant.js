@@ -40,6 +40,41 @@ export {
 
 }
 
+export const body_card_judix_data = [
+    {
+        icon: "fa-file-alt",
+        title: "The output you need",
+        para: "Save time with our unique legal business logic that automatically produces all assessments and documentation."
+    },
+    {
+        icon: "fa-arrow-down",
+        title: "Priority-oriented",
+        para: "With Judix, your risks and threats are automatically prioritised, so you can work with the most important risks first."
+    },
+    {
+        icon: "fa-balance-scale",
+        title: "The experts got you covered",
+        para: "Our lawyers and CAs ensure that you are always compliant and up to date."
+    }
+]
+export const body_card_regular_data = [
+    {
+        icon: "",
+        title: "Write the hard stuff yourself",
+        para: "You can map your facts against the law, but you'll need to handle the complex assessments and documentation yourself."
+    },
+    {
+        icon: "",
+        title: "Checklist-oriented risk work",
+        para: "You assess your risks and match your tasks on a one-to-one basis, manually without any support."
+    },
+    {
+        icon: "",
+        title: "You are responsible for the legal correctness",
+        para: "You must take full responsibility for all legal documents and compliance."
+    }
+]
+
 export const brnadLogoList = [
     {
         image: pwc,
