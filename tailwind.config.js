@@ -6,6 +6,10 @@ export default {
   ],
   theme: {
     extend: {
+      letterSpacing: {
+        '2pct': '2%', 
+        '8pct': "8%"
+      },
       boxShadow: {
         custom: 'rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px',
       },
@@ -14,6 +18,7 @@ export default {
       },
       fontFamily: {
         'plus-jakarta': ['"Plus Jakarta Sans"', 'sans-serif'],
+        popins: ['Poppins', 'sans-serif'],
       },
       spacing: {
         '70': '280px',
