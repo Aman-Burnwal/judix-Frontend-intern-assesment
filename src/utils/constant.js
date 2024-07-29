@@ -26,9 +26,11 @@ import document_icon from "../assets/document_icon.png";
 import body_card_img from "../assets/body_card.png";
 import michel_sibel from "../assets/michel_sibel.jpeg"
 import quote_icon from "../assets/icons8-quote-64.png"
+import judix_logo2 from "../assets/judix_logo_without_bg.png"
 
 export {
     judix_logo,
+    judix_logo2,
     phone_logo,
     email_logo,
     green_tick,

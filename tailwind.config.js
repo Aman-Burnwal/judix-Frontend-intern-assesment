@@ -22,12 +22,13 @@ export default {
         'custom-blue': '#1e90ff',
       },
       borderRadius: {
+        '8px': '8px',
         'bl-lg': '15px',
         'tl-lg': '15px',
       },
       clipPath: {
-        'custom': 'polygon(75% 0%, 100% 50%, 75% 100%, 0% 100%, 0 48%, 0% 0%)',
-        'custom-left': 'polygon(25% 0%, 0% 50%, 25% 100%, 100% 100%, 100% 48%, 100% 0%)',
+        'custom': 'polygon(90% 0%, 100% 50%, 90% 100%, 0% 100%, 0 48%, 0% 0%)',
+        'custom-left': 'polygon(10% 0%, 0% 50%, 10% 100%, 100% 100%, 100% 48%, 100% 0%)',
       },
     },
   },
@@ -35,12 +36,12 @@ export default {
     function ({ addUtilities }) {
       const newUtilities = {
         '.clip-custom': {
-          '-webkit-clip-path': 'polygon(75% 0%, 100% 50%, 75% 100%, 0% 100%, 0 48%, 0% 0%)',
-          'clip-path': 'polygon(75% 0%, 100% 50%, 75% 100%, 0% 100%, 0 48%, 0% 0%)',
+          '-webkit-clip-path': 'polygon(90% 0%, 100% 50%, 90% 100%, 0% 100%, 0 48%, 0% 0%)',
+          'clip-path': 'polygon(90% 0%, 100% 50%, 90% 100%, 0% 100%, 0 48%, 0% 0%)',
         },
         '.clip-custom-left': {
-          '-webkit-clip-path': 'polygon(25% 0%, 0% 50%, 25% 100%, 100% 100%, 100% 48%, 100% 0%)',
-          'clip-path': 'polygon(25% 0%, 0% 50%, 25% 100%, 100% 100%, 100% 48%, 100% 0%)',
+          '-webkit-clip-path': 'polygon(10% 0%, 0% 50%, 10% 100%, 100% 100%, 100% 48%, 100% 0%)',
+          'clip-path': 'polygon(10% 0%, 0% 50%, 10% 100%, 100% 100%, 100% 48%, 100% 0%)',
         },
       }
       addUtilities(newUtilities, ['responsive', 'hover']);
