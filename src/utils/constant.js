@@ -24,8 +24,21 @@ import services_icon from "../assets/services_icon.png";
 import legal_icon from "../assets/icons8-judgment-50.png";
 import document_icon from "../assets/document_icon.png";
 import body_card_img from "../assets/body_card.png";
+import michel_sibel from "../assets/michel_sibel.jpeg"
+import quote_icon from "../assets/icons8-quote-64.png"
 
-export {judix_logo, phone_logo, email_logo, green_tick, left_icon, right_icon, body_card_img}
+export {
+    judix_logo,
+    phone_logo,
+    email_logo,
+    green_tick,
+    left_icon,
+    right_icon,
+    body_card_img,
+    michel_sibel,
+    quote_icon,
+
+}
 
 export const brnadLogoList = [
     {

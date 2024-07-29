@@ -19,6 +19,7 @@ import Body_container from "../components/Body/Body_container";
 import Body_card from "../components/Body/Body_card";
 import Body_bottom from "../components/Body/Body_bottom";
 import Feedback from "../components/Body/Feedback";
+import Quote from "../components/Body/Quote";
 
 import {NavList} from "./constant"
 
@@ -47,6 +48,7 @@ export {
     Body_container,
     Body_card,
     Feedback,
+    Quote,
     Body_bottom,
 
     Footer,
