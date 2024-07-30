@@ -1,45 +1,46 @@
 
 
-import { socialMedia, judix_logo, email_logo, phone_logo } from "../../utils/constant";
+import { socialMedia, email_logo, phone_logo, judix_logo2 } from "../../utils/constant";
 import { Logo } from "../../utils/index";
 
 const FooterTop = () => {
     return (
         <div>
-            <div className="flex flex-row justify-between p-4">
+            <div className="flex flex-row justify-between p-4 text-[#E9F2F9]">
                 <ul className="flex items-center ">
-                    <img src={judix_logo} height="60px" width="120px" alt="judix logo" />
+                    <img src={judix_logo2} height="60px" width="120px" alt="judix logo" />
                 </ul>
                 <ul className=" flex flex-col gap-5 items-end">
-                    <li>Plus Jakarta Sans</li>
+                    <li className="text-[#E9F2F9] text-[15px] leading-[18.9px] font-normal cursor-pointer">Plus Jakarta Sans</li>
                     <li>
-                        <button className="border border-[#F89A36] text-[#F89A36] px-2 py-1 rounded-sm">Lawyer/CA click here</button>
+                        <button className="border border-[#F89A36] text-[18px] font-[500] leading-[22.68px] 
+                        text-[#F89A36] w-[209px] h-[40px] rounded-md font-plus-jakarta cursor-pointer">Lawyer/CA click here</button>
                     </li>
                 </ul>
-                <ul className="flex flex-col gap-3">
-                    <li>Products</li>
-                    <li>Features</li>
-                    <li>Talk to a Lawyer</li>
-                    <li>Talk to a CA</li>
+                <ul className="flex flex-col gap-3 text-[#E9F2F9]">
+                    <li className="text-[#E9F2F9] text-[15px] leading-[18.9px] font-normal cursor-pointer">Products</li>
+                    <li className="text-[#E9F2F9] text-[15px] leading-[18.9px] font-normal cursor-pointer">Features</li>
+                    <li className="text-[#E9F2F9] text-[15px] leading-[18.9px] font-normal cursor-pointer">Talk to a Lawyer</li>
+                    <li className="text-[#E9F2F9] text-[15px] leading-[18.9px] font-normal cursor-pointer">Talk to a CA</li>
                 </ul>
-                <ul className="flex flex-col gap-3">
-                    <li>About Us</li>
-                    <li>Contact Us</li>
-                    <li>Careers</li>
+                <ul className="flex flex-col gap-3 text-[#E9F2F9]">
+                    <li className="text-[#E9F2F9] text-[15px] leading-[18.9px] font-normal cursor-pointer">About Us</li>
+                    <li className="text-[#E9F2F9] text-[15px] leading-[18.9px] font-normal cursor-pointer">Contact Us</li>
+                    <li className="text-[#E9F2F9] text-[15px] leading-[18.9px] font-normal cursor-pointer">Careers</li>
                 </ul>
                 <ul className="flex flex-col gap-5">
                     <li className="flex flex-row gap-2 ">
                         
                         <div>
-                            <img height="25px" width="25px" src={phone_logo} alt="phone_logo" />
+                            <img className="cursor-pointer" height="25px" width="25px" src={phone_logo} alt="phone_logo" />
                         </div>
-                        <div>Request a Callback</div>
+                        <div className="text-[#E9F2F9] text-[15px] leading-[18.9px] font-normal cursor-pointer">Request a Callback</div>
                     </li>
                     <li className="flex flex-row gap-2 ">
                         <div>
-                            <img height="25px" width="25px" src={email_logo} alt="phone_logo" />
+                            <img className="cursor-pointer" height="25px" width="25px" src={email_logo} alt="phone_logo" />
                         </div>
-                        <div>projectx@gmail.com</div>
+                        <div className="text-[#E9F2F9] text-[15px] leading-[18.9px] font-normal cursor-pointer">projectx@gmail.com</div>
                         
                     </li>
                     <ul className="flex flex-row gap-5">
@@ -51,7 +52,7 @@ const FooterTop = () => {
                     
                 </ul>
             </div>
-            <div className="w-full h-[0.1px] bg-white"></div>
+            <div className="w-full h-[0.1px] bg-[#6D6969]"></div>
         </div>
     )
 }
