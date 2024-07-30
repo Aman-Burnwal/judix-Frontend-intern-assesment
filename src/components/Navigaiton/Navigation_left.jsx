@@ -7,7 +7,7 @@ const Navigation_left = () => {
               return <li key={list} className="text-lg leading-[22.68px]  text-center">{list}</li>
           })}
           <li className="border w-[180px] h-[40px]  rounded-md font-[500px] text-lg leading-[22.67px] 
-          border-[#1B72B1] text-[#1B72B1] text-center content-center ">Talk to Lawyer/CA </li>
+          border-[#1B72B1] text-[#1B72B1] text-center content-center cursor-pointer ">Talk to Lawyer/CA </li>
       </ul>
 
   )

@@ -5,7 +5,7 @@ const Body_card = () => {
   return (
     <div className="w-[959px] h-[500px]">
       <div className="relative h-full flex flex-row  ">
-        <h1 className=" absolute w-full  text-[#009EFF] text-[28px] leading-[30px] text-center font-semibold">VS</h1>
+        <h1 className=" absolute w-full  text-[#009EFF] text-[28px] top-2 leading-[30px] text-center font-semibold">VS</h1>
         <Body_subCard />
         <Body_subCard_right />
       </div>
