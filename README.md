@@ -2,4 +2,5 @@
 
 ### bun install to install all dependencies
 
-// 
+> bun install 
+
