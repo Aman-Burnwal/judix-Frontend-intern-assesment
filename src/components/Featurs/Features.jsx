@@ -3,17 +3,17 @@ import Features_card from "./Features_card"
 
 const Features = () => {
   return (
-      <div className="w-full bg-slate-100 flex flex-col py-10 gap-10">
-          <div className="w-9/12 mx-auto  ">
-              <p className="text-[#8F8D8E] text-sm">That&apos;s where we come</p>
-              <div className="flex flex-row justify-between">
-                  <p className="text-[#455A64] text-xl font-semibold">Judix : The smarter way to manage your legal and financial matters.</p>
+      <div className="w-full bg-blue-50 flex flex-col py-10 gap-10">
+          <div className="w-10/12 mx-auto font-popins ">
+              <p className="text-[#8F8D8E] text-lg leading-[27px] tracking-2pct">That&apos;s where we come</p>
+              <div className="flex flex-row justify-between pt-4">
+                  <p className="text-[#455A64] text-[28px] leading-[42px] tracking-2pct font-semibold">Judix : The smarter way to manage your legal and financial matters.</p>
                   <div className="flex flex-row gap-5">
-                      <div className="bg-[#DDDDDD]  size-10">
-                          <img className="fill-[#263238]" height="20px" src={left_icon} />
+                      <div className="bg-[#DDDDDD]  size-[50px] rounded-[10px] flex items-center justify-center">
+                          <img className="  h-[20px]  "  src={left_icon} />
                       </div>
-                      <div className="bg-[#DDDDDD]  size-10">
-                          <img className="fill-[#263238]" height="20px" src={right_icon} />
+                      <div className="bg-[#DDDDDD]  size-[50px] rounded-[10px] flex items-center justify-center">
+                          <img className="fill-[#263238]  h-[20px] " src={right_icon} />
                       </div>
                     </div>
               </div>

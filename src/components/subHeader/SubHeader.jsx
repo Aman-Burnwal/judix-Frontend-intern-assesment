@@ -3,17 +3,17 @@ import SubHeader_card from "./SubHeader_card"
 
 const SubHeader = () => {
   return (
-      <div className="relative w-full ">
-          <div className=" flex flex-col py-4 justify-center items-center content-center ">
-              <h2 className="text-center font-semibold text-xl">Managing legal affairs is complicated!</h2>
+      <div className="relative w-full font-plus-jakarta ">
+          <div className=" flex flex-col py-10 tracking-2pct justify-center items-center content-center ">
+              <h2 className="text-center font-semibold text-[28px] leading-[35.28px] text-[#263238]">Managing legal affairs is complicated!</h2>
 
               <div className="flex flex-row gap-12">
                   {subHeaderData.map(data => <SubHeader_card key={data.logo} image={data.logo} text={data.para} />)
                      }
               </div>
-              <div className="flex flex-row gap-1">
-                  <div className="w-2 bg-slate-700 h-2 rounded-xl"></div>
-                  <div className="w-8 bg-blue-500 h-2 rounded-lg"></div>
+              <div className="flex flex-row gap-2">
+                  <div className="w-[10px] h-[10px]  bg-[#AAAAAA] rounded-xl"></div>
+                  <div className="w-[50px] h-[10px] bg-[#009EFF] rounded-lg"></div>
               </div>
           </div>
           

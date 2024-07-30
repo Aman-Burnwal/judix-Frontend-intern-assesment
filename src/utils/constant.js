@@ -18,8 +18,8 @@ import judix_logo from "../assets/logo_judix.png";
 import phone_logo from "../assets/icons8-phone-40.png"
 import email_logo from "../assets/icons8-email-30.png"
 import green_tick from "../assets/icons8-tick-30.png"
-import left_icon from "../assets/left.svg";
-import right_icon from "../assets/right.svg";
+import left_icon from "../assets/icons8-left-20.png";
+import right_icon from "../assets/right.png";
 import services_icon from "../assets/services_icon.png";
 import legal_icon from "../assets/icons8-judgment-50.png";
 import document_icon from "../assets/document_icon.png";
