@@ -19,22 +19,29 @@ const Features = () => {
               </div>
           </div>
           <div className="relative w-full">
-              <div className="  flex items-center flex-row justify-between gap-10">
+              <div className="  w-full  flex  gap-4
+               flex-row ">
                   
-                  <div className="absolute w-[285px] z-20  h-[255px] bg-gradient-to-r from-[#F3F8FC] via-[rgba(255,255,255,0.86)] to-transparent"></div>
-                  <div className="absolute w-[285px] z-20 right-0  h-[225px] bg-gradient-to-l from-[#F3F8FC] via-[rgba(255,255,255,0.86)] to-transparent"></div>
+                  <div className="absolute w-[475px] z-20  h-[265px] bg-gradient-to-r from-[#F3F8FC] via-[rgba(255,255,255,0.86)]to-transparent"></div>
+                  <div className="absolute w-[265px] z-20 right-0  h-[215px] bg-gradient-to-l mt-6  from-[#F3F8FC] via-[rgba(255,255,255,0.86)] to-transparent"></div>
+                  
                   {Features_card_details.map((card, index) =>
                  
                   <Features_card
                       
                       key={card.feature_name} 
-                      height={index == 1 ? "325px" : "225px"}
-                      width={index == 1 ? "585px" : "405px"}
+                          height="265px"
+                          width="545px"
+                          scale={index == 1 ? "1" : "0.8"}
+
+           
                       discripton={card.feature_discription}
                       logo={card.feature_icon}
                       header={card.feature_name}
                   
-                  />)}
+                      />
+                  )}
+                 
               </div>
           </div>
           <div className="flex w-full flex-row gap-3 justify-center ">

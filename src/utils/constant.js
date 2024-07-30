@@ -27,6 +27,11 @@ import body_card_img from "../assets/body_card.png";
 import michel_sibel from "../assets/michel_sibel.jpeg"
 import quote_icon from "../assets/icons8-quote-64.png"
 import judix_logo2 from "../assets/judix_logo_without_bg.png"
+import file from "../assets/file.png";
+import notes from "../assets/notes.png";
+import law from "../assets/icons8-legal-50.png"
+import lawr from "../assets/legal-r.png"
+import documents from "../assets/icons8-documents-32.png"
 
 export {
     judix_logo,
@@ -44,34 +49,34 @@ export {
 
 export const body_card_judix_data = [
     {
-        icon: "fa-file-alt",
+        icon: documents,
         title: "The output you need",
         para: "Save time with our unique legal business logic that automatically produces all assessments and documentation."
     },
     {
-        icon: "fa-arrow-down",
+        icon: documents,
         title: "Priority-oriented",
         para: "With Judix, your risks and threats are automatically prioritised, so you can work with the most important risks first."
     },
     {
-        icon: "fa-balance-scale",
+        icon: lawr,
         title: "The experts got you covered",
         para: "Our lawyers and CAs ensure that you are always compliant and up to date."
     }
 ]
 export const body_card_regular_data = [
     {
-        icon: "",
+        icon: file,
         title: "Write the hard stuff yourself",
         para: "You can map your facts against the law, but you'll need to handle the complex assessments and documentation yourself."
     },
     {
-        icon: "",
+        icon: notes,
         title: "Checklist-oriented risk work",
         para: "You assess your risks and match your tasks on a one-to-one basis, manually without any support."
     },
     {
-        icon: "",
+        icon: law,
         title: "You are responsible for the legal correctness",
         para: "You must take full responsibility for all legal documents and compliance."
     }

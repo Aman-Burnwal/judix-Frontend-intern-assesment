@@ -5,16 +5,12 @@ import { Body_bottom, Body_btn, Body_card, Body_container, Feedback } from "../.
 const Body = () => {
     return (
         <div className="w-full bg-blue-50 py-10">
-            <div className="flex flex-col gap-10 justify-center items-center content-center  ">
-                <div className="flex flex-row gap-20">
-                    {
-                        body_btn_data.map(data =>
-                            <Body_btn key={data.text} color={data.color} text={data.text} />
-                        )
-                    }
+            <div className="flex flex-col gap-20 justify-center items-center content-center pt-14  ">
+                <div className="flex flex-row  gap-20">
+                    {body_btn_data.map(data => <Body_btn key={data.text} color={data.color} text={data.text} />)}
                 </div>
 
-                <h1 className="text-[#0B2C4B] text-[40px] leading-[60px] font-bold ">All you need is <span className="text-[#F89A36]">Judix</span></h1>
+                <h1 className="text-[#0B2C4B] text-[42px] leading-[60px] font-bold font-popins">All you need is <span className="text-[#F89A36]">Judix</span></h1>
                 {
                     body_container_card.map((body, index) => <Body_container key={body.header}
                         img={body_card_img} 

@@ -18,6 +18,7 @@ const Body_subCard = () => {
                   header={data.title}
                   logo={data.icon} 
                   line={index != body_card_judix_data.length - 1}
+                  color={"white"}
                   />
           
           )}
